@@ -14,3 +14,6 @@ print(pika["type"])
 
 for item in pika:
     print(item)
+    
+
+# Pick a Pokemon from the Pokedex and create one of your own!
