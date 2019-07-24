@@ -25,25 +25,23 @@ pika_dict = {
 print(pika_dict)
 
 ### CREATE ###
-pika_dict["category"] = "mouse"
-pika_dict["ability"] = "static"
 
 # Creating a new key:value pair in the dictionary using the following syntax:
 # dict_name[key] = value
 
+
+
+
+
 ### READ ###
-print(pika_dict["name"])
-print(pika_dict["pokedex index"])
 
 # Read information from the dictionary using this syntax:
 # dict_name[key]
 
-### UPDATE ###
-pika_dict["name"] = "Pika"
-print(pika_dict["name"])
 
-pika_dict["height"] = "17 inches"
-print(pika_dict["height"])
+
+
+### UPDATE ###
 
 # Upadte values associated with a key using the "=" sign.  
 # = is the assignment operator
@@ -52,13 +50,11 @@ print(pika_dict["height"])
 del pika_dict["weight"]
 
 # To delete key-value pairs use the del command.
-# Syntax: del dict_name[key]
+# Syntax: del dict_name[key] = newValue
+
+
 
 
 ### ITERATING THROUGH A DICTIONARY ###
-for item in pika_dict:
-    print(item)
 
-for key in pika_dict:
-    print(pika_dict[key])
     
