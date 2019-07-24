@@ -62,5 +62,3 @@ for item in pika_dict:
 for key in pika_dict:
     print(pika_dict[key])
     
-
-# Pick a Pokemon from the Pokedex and create one of your own!
